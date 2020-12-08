@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Rajdhani:wght@500;700&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+body {
+    background-color: black;
+}
+.company-logo {
+    font-family: Rajdhani;
+    font-size: 26px;
+    font-weight:700;
+    color: white;
+}
+.menu {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+}
+header {
+    background: url(../img/header-background.jpg);
+}
+.media-icons {
+    width: 100x;
+    height: 100px;
+}
