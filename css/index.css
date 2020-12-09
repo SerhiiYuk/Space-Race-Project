@@ -1,23 +1,99 @@
 @import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Rajdhani:wght@500;700&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
-body {
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+
+:root {
+    font-family: Roboto, sans-serif;
     background-color: black;
+    color: white;
 }
+
+header {
+    background-image: url(../img/header-background.jpg);
+    background-size: cover;
+}
+
 .company-logo {
     font-family: Rajdhani;
-    font-size: 26px;
-    font-weight:700;
-    color: white;
+    font-size: 1.6em;
+    font-weight: 700;
+    text-align: left;
 }
-.menu {
+
+.menu a {
     font-family: Roboto;
-    font-size: 15px;
+    font-size: 0.9em;
     font-weight: 400;
+    text-decoration: none;
     color: white;
 }
-header {
-    background: url(../img/header-background.jpg);
+
+.menu-item {
+    padding: 5px;
 }
-.media-icons {
-    width: 100x;
-    height: 100px;
+
+.media-icons img {
+    width: 50px;
+}
+
+.main-title {
+    font-family: "Leckerli One";
+    font-weight: 400;
+    font-size: 7.20em;
+    text-align: center;
+}
+
+.main-subtitle {
+    font-family: Roboto, sans-serif;
+    font-size: 1.125em;
+    text-align: center;
+    color: #ffffff99;
+    font-weight: 600;
+}
+
+.header-button {
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.header-play-button img {
+    width: 50px;
+    text-align: center;
+}
+
+.our-videos-button p {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.show-numbers-title {
+    font-weight: 3.125em;
+    font-family: Rajdhani, sans-serif;
+    text-align: center;
+}
+
+div .numbers-of-show {
+    background-image: url(../img/galaxy-show-numbers.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 500px;
+}
+
+div .shows-booked {
+    background-image: url(../img/shows-booked-spaceman.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 500px;
+}
+
+div .another-show-percentage {
+    background-image: url(../img/another-show-percentage-sky.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 500px;
 }
