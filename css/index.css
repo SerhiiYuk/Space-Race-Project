@@ -5,6 +5,18 @@
     font-family: Roboto, sans-serif;
     background-color: black;
     color: white;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end; 
+    margin-top: 20px;
 }
 
 header {
@@ -20,7 +32,7 @@ header {
 }
 
 .menu a {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 0.9em;
     font-weight: 400;
     text-decoration: none;
@@ -36,7 +48,7 @@ header {
 }
 
 .main-title {
-    font-family: "Leckerli One";
+    font-family: "Leckerli One", sans-serif;
     font-weight: 400;
     font-size: 7.20em;
     text-align: center;
@@ -50,7 +62,13 @@ header {
     font-weight: 600;
 }
 
-.header-button {
+.header-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-button {
     background-color: blue;
     color: white;
     border-radius: 5px;
@@ -65,6 +83,10 @@ header {
     text-align: center;
 }
 
+.our-videos-button {
+    display: flex;
+}
+
 .our-videos-button p {
     text-decoration: none;
     color: white;
@@ -75,25 +97,75 @@ header {
     font-weight: 3.125em;
     font-family: Rajdhani, sans-serif;
     text-align: center;
+
 }
+
+.vr-show-numbers { 
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 870px) {
+    .vr-show-numbers {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1000px) {
+    .vr-show-numbers {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
 
 div .numbers-of-show {
     background-image: url(../img/galaxy-show-numbers.jpg);
     background-size: cover;
-    width: 300px;
-    height: 500px;
+    background-position: center;
+    width: 24.37em;
+    height: 30.5em;
+    margin: 20px;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.numbers-of-show-text {
+    display: flex;
+    margin-left: 15px;
+}
+
+.show-number {
+    margin-right: 3.50em;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.numbers-text {
+    display: flex;
+    align-items: center;
 }
 
 div .shows-booked {
     background-image: url(../img/shows-booked-spaceman.jpg);
     background-size: cover;
-    width: 300px;
-    height: 500px;
+    background-position: center;
+    width: 24.37em;
+    height: 30.5em;
+    margin: 20px;
+    display: flex;
+    align-items: flex-end;
+
 }
 
 div .another-show-percentage {
     background-image: url(../img/another-show-percentage-sky.jpg);
     background-size: cover;
-    width: 300px;
-    height: 500px;
+    background-position: center;
+    width: 24.37em;
+    height: 30.5em;
+    margin: 20px;
+    display: flex;
+    align-items: flex-end;
+
 }
