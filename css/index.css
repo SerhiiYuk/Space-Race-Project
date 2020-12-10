@@ -94,7 +94,7 @@ header {
 }
 
 .show-numbers-title {
-    font-weight: 3.125em;
+    font-weight: 700;
     font-family: Rajdhani, sans-serif;
     text-align: center;
 
@@ -105,18 +105,12 @@ header {
     justify-content: center;
 }
 
-@media (min-width: 870px) {
+@media {
     .vr-show-numbers {
-        grid-template-columns: repeat(2, 1fr);
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 400px);
     }
 }
-
-@media (min-width: 1000px) {
-    .vr-show-numbers {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
 
 div .numbers-of-show {
     background-image: url(../img/galaxy-show-numbers.jpg);
