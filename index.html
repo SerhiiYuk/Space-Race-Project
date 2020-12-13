@@ -8,11 +8,11 @@
         <link rel="stylesheet" href="css/index.css">
     </head>
     <body>
-        <header id="header-home">
+        <header id="header-link">
             <div class="container">
                 <nav class="navbar navbar-expand-md navbar-dark bg-transparent">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="#header-home">Space Race</a>
+                        <a class="navbar-brand" href="#header-link">Space Race</a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -37,7 +37,7 @@
                                     <div class="media-icons">
                                         <a href="https://www.facebook.com/" target="blank"><img src="img/facebook-logo.svg"  alt="Фейсбук"></a>
                                         <a href="https://www.instagram.com/" target="blank"><img src="img/instagram-logo.svg" alt="Інстаграм"></a>
-                                        <a href="https://www.youtube.com/" target="blank"><img src="img/youtube-logo.svg" alt="Ютуб"></a></a>
+                                        <a href="https://www.youtube.com/" target="blank"><img src="img/youtube-logo.svg" alt="Ютуб"></a>
                                     </div>
                                 </li>
                             </ul>
@@ -49,7 +49,7 @@
                 <h1 class="main-title">Space Race</h1>
                 <p class="main-subtitle">Дивовижні VR-шоу відведуть вас у найвіддаленіші куточки Всесвіту.</p>
                 <div class="header-buttons">
-                    <button class="order-button">Надіслати запит</button>
+                    <button type="button" class="btn btn-primary">Надіслати запит</button>
                     <div class="our-videos-button">
                         <a href="https://www.youtube.com/" class="header-play-button" target="blank"><img src="img/play-button.svg" alt="Наші відео"><p>Наші відео</p></a>
                     </div>
@@ -83,23 +83,77 @@
             <section class="about-us" id="about-us">
                 <h2 class="about-us-title">Про нас</h2>
                 <hr>
-                <p class="about-us-subtitle">Досліджуйте Всесвіт за допомогою технології VR!</p>
-                <p>Ми пропонуємо вам з головою поринути у світ справжніх космічних пригод! Щоб побачити зорі та планети поблизу, не обов’язково проходити програму підготовки астронавтів! Завдяки нашому сервісу ви можете почувати себе справжнім космічним мандрівником, не виходячи з дому чи офісу.</p>
-                <p>Дивіться приголомшливі фільми за допомогою технології VR. Пориньте в атмосферу простору і відчуйте себе справжнім космонавтом. Це абсолютно новий досвід, який ви точно захочете повторити. Ми приїдемо до вас з усім необхідним обладнанням і проведемо вас до зірок і планет!</p>
-                <button>Дізнатися більше</button>
+                <p class="about-us-subtitle"><span class="about-us-color-text">Досліджуйте Всесвіт</span><br>за допомогою технології VR!</p>
+                <p class="about-us-text">Ми пропонуємо вам з головою поринути у світ справжніх космічних пригод! Щоб побачити зорі та планети поблизу, не обов’язково проходити програму підготовки астронавтів! Завдяки нашому сервісу ви можете почувати себе справжнім космічним мандрівником, не виходячи з дому чи офісу.</p>
+                <p class="about-us-text">Дивіться приголомшливі фільми за допомогою технології VR. Пориньте в атмосферу простору і відчуйте себе справжнім космонавтом. Це абсолютно новий досвід, який ви точно захочете повторити. Ми приїдемо до вас з усім необхідним обладнанням і проведемо вас до зірок і планет!</p>
+                <button type="button" class="btn btn-primary about-us-button">Дізнатися Більше</button>  
             </section>
             <section class="vr-show" id="vr-show">
-                <h2 class=vr-show-title>Шоу</h2>
-                <hr>
-                <p class=vr-show-subtitle>Найпопулярніші шоу в 2020 році.</p>
-                <p>Ми створюємо фільми з нашою чудовою командою техніків, художників 3D, режисерів, щоб ви насолоджувались кожним кадром</p>
-                <div>
-                    <p>Ми в соціальних мережах:</p>
-                    <a href="https://www.facebook.com/" target="blank"><img src="img/facebook_logo.png"  alt="Фейсбук"></a>
-                    <a href="https://www.instagram.com/" target="blank"><img src="img/instagram_logo.png" alt="Інстаграм"></a>
-                    <a href="https://www.youtube.com/" target="blank"><img src="img/youtube_logo.png" alt="Ютуб"></a>
+                <div class=vr-show-info>    
+                    <h2 class=vr-show-title>Шоу</h2>
+                    <hr>
+                    <p class=vr-show-subtitle>Найпопулярніші шоу в 2020 році.</p>
+                    <p>Ми створюємо фільми з нашою чудовою командою техніків, художників 3D, режисерів, щоб ви насолоджувались кожним кадром</p>
+                    <div>
+                        <p>Ми в соціальних мережах:</p>
+                        <a href="https://www.facebook.com/" target="blank"><img src="img/facebook_logo.png"  alt="Фейсбук"></a>
+                        <a href="https://www.instagram.com/" target="blank"><img src="img/instagram_logo.png" alt="Інстаграм"></a>
+                        <a href="https://www.youtube.com/" target="blank"><img src="img/youtube_logo.png" alt="Ютуб"></a>
+                    </div>
                 </div>
-        
+                <div class="vr-show-carousel-bts" >
+                    <div id="vr-show-carousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#vr-show-carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#vr-show-carousel" data-slide-to="1"></li>
+                            <li data-target="#vr-show-carousel" data-slide-to="2"></li>
+                            <li data-target="#vr-show-carousel" data-slide-to="3"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="img/carousel-spacewoman.png" alt="Космонавт">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Космічна станція</h5>
+                                    <p>Що відбувається на МКС? Як космонавти живуть і працюють в космосі?</p>
+                                    <button type="button" class="btn btn-primary">Забронювати</button>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/carousel-vr-woman.png" alt="ВР Шолом">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Тренування NASA</h5>
+                                    <p>Хочете знати, як космонавти проходять навчання в NASA? Спробуйте це самі з цією ВР пригодою.</p>
+                                    <button type="button" class="btn btn-primary">Забронювати</button>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/carousel-ship.png" alt="Космічний корабель">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Вічний Супутник</h5>
+                                    <p>Місяц повний секретів. Що знаходиться на темній стороні супутника?</p>
+                                    <button type="button" class="btn btn-primary">Забронювати</button>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/carousel-space.png" alt="Космос">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Найближче до сонця</h5>
+                                    <p>Відчуй пекельну спеку та крижаний холод. Чим цікавий Меркурій - найближча планета до Сонця.</p>
+                                    <button type="button" class="btn btn-primary">Забронювати</button>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#vr-show-carousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#vr-show-carousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only"></span>
+                        </a>
+                    </div>
+                </div>
+    <!--
             </section>
             <section class="prices" id="prices">
                 <h2 class="prices-title">Ціни</h2>
@@ -278,6 +332,7 @@
                 </div>
             </nav>
             <hr>
+        -->
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     </body>

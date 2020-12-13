@@ -5,7 +5,7 @@
     font-family: Roboto, sans-serif;
     background-color: black;
     scroll-behavior: smooth;
-    max-width: 1920px;
+    max-width: 1440px;
     margin: auto;
 }
  body {
@@ -15,9 +15,6 @@
 header {
     background-image: url(../img/header-background.jpg);
     background-size: cover;
-}
-
-.navbar-text {  
 }
 
 .media-icons img {
@@ -43,16 +40,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.order-button {
-    background-color: blue;
-    color: white;
-    border-radius: 5px;
-    padding: 10px 20px;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
 }
 
 .header-play-button img {
@@ -137,4 +124,75 @@ div .another-show-percentage {
     margin: 20px;
     display: flex;
     align-items: flex-end;
+}
+
+.about-us {
+    background-image: url(../img/vr-helmet-man.png);
+    background-size: cover;
+    background-position: center;
+    height: 55em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.about-us-title {
+    font-size: 20px;
+    font-family: Rajdhani, sans-serif;
+    margin-right: 20px;
+    margin-top: 10%;
+    text-align: right;
+    width: 50%;
+    text-align: left;
+}
+
+.about-us-subtitle {
+    font-size: 50px;
+    font-family: Rajdhani, sans-serif;
+    margin-right: 20px;
+    width: 50%;
+}
+
+.about-us-text {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    margin-right: 40px;
+    width: 48%;
+}
+
+.about-us-color-text {
+    color: blueviolet;
+}
+
+.about-us-button {
+    margin: auto;
+}
+
+@media (max-width: 700px) {
+    .about-us-subtitle {
+        width: 90%;
+    }
+}
+
+@media (max-width: 700px) {
+    .about-us-text {
+        width: 90%;
+    }
+}
+
+.vr-show {
+    background-image: url(../img/header-background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 55em;
+    display: flex;
+}
+
+.vr-show-carousel-bts {
+    margin-top: 60px;
+    margin-right: 50px;
+}
+
+.carousel-item img {
+    border-radius: 10px;
 }
