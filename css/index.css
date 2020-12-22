@@ -268,3 +268,17 @@ div .another-show-percentage {
     color: black;
     font-weight: 700;
 }
+
+.banner-counter-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    font-family: "Leckerli One", sans-serif;
+    font-weight: 700;
+}
+
+.banner-counter-text {
+    margin-right: 20px;
+    font-family: "Leckerli One", sans-serif;
+    font-weight: 700;
+}
