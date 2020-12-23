@@ -6,7 +6,7 @@ function updateTimer() {
 }
 setInterval(updateTimer, 1000);
 
-function clock() {
+function updateClock() {
     const clock = document.querySelector('.clock');
     clock.innerText = new Date().toLocaleTimeString();
 }
