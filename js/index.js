@@ -5,3 +5,9 @@ function updateTimer() {
     document.querySelector('.banner-counter').innerText = diffSecs * 42;
 }
 setInterval(updateTimer, 1000);
+
+function clock() {
+    const clock = document.querySelector('.clock');
+    clock.innerText = new Date().toLocaleTimeString();
+}
+setInterval(clock, 1000);
