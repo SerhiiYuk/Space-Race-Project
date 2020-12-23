@@ -10,4 +10,4 @@ function updateClock() {
     const clock = document.querySelector('.clock');
     clock.innerText = new Date().toLocaleTimeString();
 }
-setInterval(clock, 1000);
+setInterval(updateClock, 1000);
