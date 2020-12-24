@@ -210,11 +210,13 @@ div .another-show-percentage {
     }
     .vr-show-carousel-bts {
         margin: auto;
-        height: 50%;
+        width: auto;
+        heigh;
     }
     .vr-show-info {
         width: auto;
     }
+
 }
 
 .vr-show-info {
@@ -233,9 +235,11 @@ div .another-show-percentage {
 
 .vr-show-subtitle {
     font-family: Rajdhani, sans-serif;
-    font-size: 50px;
+    font-size: 2em;
     padding-top: 1em;
     padding-bottom: 3em;
+    margin-right: 2em;
+    max-width: 80%;
 }
 
 .vr-show-colored-text {
@@ -257,6 +261,7 @@ div .another-show-percentage {
     margin-top: 4em;
     height: 40em;
     width: 30em;
+    margin-bottom: 25px;
     
 }
 
@@ -281,4 +286,92 @@ div .another-show-percentage {
     margin-right: 20px;
     font-family: "Leckerli One", sans-serif;
     font-weight: 700;
+}
+
+.prices {
+    background-image: url(../img/prices-background.png);
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    padding-bottom: 25px;
+}
+
+.prices-title {
+    font-size: 20px;
+    font-family: Rajdhani, sans-serif;
+    font-weight: 700;
+    color: black;
+    margin-top: 10%;
+    margin-left: 50%; 
+}
+
+.prices-subtitle {
+    font-size: 30px;
+    font-family: Rajdhani, sans-serif;
+    font-weight: 600;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+
+#prices-cards-box {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+@media (max-width: 780px) {
+    #prices-cards-box {
+     display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        
+    }
+
+}
+
+.family-plan {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/prices-card-background.png);
+    width: 28%;
+    height: 35em;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.group-plan {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/prices-card-background.png);
+    width: 28%;
+    height: 35em;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.expedition-plan {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/prices-card-background.png);
+    width: 28%;
+    height: 35em;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.price-tag {
+    display: flex;
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+    width: 6em;
+    height: 6em;
+   justify-content: center;
+    align-items: center;
 }
