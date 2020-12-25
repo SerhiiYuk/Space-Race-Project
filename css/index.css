@@ -157,7 +157,6 @@ div .another-show-percentage {
     font-family: Rajdhani, sans-serif;
     margin-right: 20px;
     margin-top: 10%;
-    text-align: right;
     width: 50%;
     text-align: left;
 }
@@ -187,12 +186,15 @@ div .another-show-percentage {
 @media (max-width: 54em) {
     .about-us-subtitle {
         width: 90%;
+        margin-left: 10%;
+        text-align: center;
     }
 }
 
 @media (max-width: 54em) {
     .about-us-text {
         width: 90%;
+        margin-left: 10%;
     }
 }
 
@@ -448,7 +450,84 @@ div .another-show-percentage {
     padding-bottom: 10px;
 }
 
-.why-us-bytton {
+.why-us-button {
     margin-left: 50px;
-    padding-bott
+}
+
+.how-it-works {
+    background-image: url(../img/how-it-works-background.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;    
+}
+
+.how-it-works-title {
+    font-family: Rajdhani, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 5%;
+    text-align: left;
+    width: 40%;
+    margin-right: 10%;
+}
+
+.how-it-works-subtitle {
+    font-family: Rajdhani, sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    text-align: left;
+    width: 40%;
+    margin-right: 10%;
+}
+
+.how-it-works-text {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    width: 40%;
+    margin-right: 10%;
+}
+
+.how-it-works-text-list {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    width: 42%;
+    margin-right: 10%;
+}
+
+.how-it-works-button {
+    padding-bottom: 20px;
+    margin-right: 30%;
+}
+
+@media (max-width: 700px) {
+    .how-it-works {
+       align-items: center;
+    }
+    .how-it-works-title {
+        width: 50%;
+        margin-left: 10px;
+    }
+    .how-it-works-subtitle {
+        width: 70%;
+        margin-left: 10px;
+    }
+    .how-it-works-text {
+        width: 70%;
+        margin-left: 10px;
+    }
+    .how-it-works-text-list {
+        width: 70%;
+        margin-left: 10px;
+    }
+}
+
+.gallery img {
+    width: 500px;
+    height: 500px;
 }
