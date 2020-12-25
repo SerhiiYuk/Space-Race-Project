@@ -211,7 +211,6 @@ div .another-show-percentage {
     .vr-show-carousel-bts {
         margin: auto;
         width: auto;
-        heigh;
     }
     .vr-show-info {
         width: auto;
@@ -297,12 +296,12 @@ div .another-show-percentage {
 }
 
 .prices-title {
-    font-size: 20px;
+    font-size: 40px;
     font-family: Rajdhani, sans-serif;
     font-weight: 700;
     color: black;
-    margin-top: 10%;
-    margin-left: 50%; 
+    margin-top: 50px;
+    margin-left: 47%; 
 }
 
 .prices-subtitle {
@@ -315,54 +314,60 @@ div .another-show-percentage {
     margin-left: 30px;
 }
 
-
-#prices-cards-box {
+#prices-cards-box { 
     display: flex;
-    justify-content: space-around;
-    margin: 50px;
+    justify-content: center;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 770px) {
     #prices-cards-box {
-     display: grid;
-        grid-template-columns: 1fr;
-        justify-content: center;
-        
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 400px);
+        grid-gap: 10px;
+        margin-left: 15%;
     }
-
 }
 
 .family-plan {
     display: flex;
     flex-direction: column;
     background-image: url(../img/prices-card-background.png);
-    width: 28%;
-    height: 35em;
+    background-position: center;
+    background-size: cover;
+    width: 20em;
+    height: 30em;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    margin: 10px;
 }
 
 .group-plan {
     display: flex;
     flex-direction: column;
     background-image: url(../img/prices-card-background.png);
-    width: 28%;
-    height: 35em;
+    background-position: center;
+    background-size: cover;
+    width: 20em;
+    height: 30em;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    margin: 10px;
 }
 
 .expedition-plan {
     display: flex;
     flex-direction: column;
     background-image: url(../img/prices-card-background.png);
-    width: 28%;
-    height: 35em;
+    background-position: center;
+    background-size: cover;
+    width: 20em;
+    height: 30em;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    margin: 10px;
 }
 
 .price-tag {
@@ -370,8 +375,80 @@ div .another-show-percentage {
     background-color: white;
     border-radius: 50%;
     color: black;
-    width: 6em;
-    height: 6em;
-   justify-content: center;
+    width: 5em;
+    height: 5em;
+    justify-content: center;
     align-items: center;
+    font-weight: 700;
+}
+
+.why-us-section {
+    background-image: url(../img/why-us-background.png);
+    background-position: auto;
+    background-size: cover;
+    padding: 30px;
+    height: auto;
+}
+
+.why-us-title {
+    font-family: Rajdhani, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.why-us-subtitle {
+    font-family: Rajdhani, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.why-us-colored-text {
+    color: burlywood;
+}
+
+.why-us-items { 
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 25px;
+}
+
+@media {
+    .why-us-items {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 270px);
+    }
+}
+
+.why-us-items img {
+    width: 100px;
+}
+
+.why-us-item-title {
+    font-family: Rajdhani, sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.why-us-item-text {
+    color: #ffffff99;
+}
+
+.price-cards-text {
+    color: #ffffff99;
+}
+
+.why-us-footer {
+    margin-top: 50px;
+    margin-left: 30px;
+    padding-bottom: 10px;
+}
+
+.why-us-bytton {
+    margin-left: 50px;
+    padding-bott
 }
