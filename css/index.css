@@ -12,6 +12,10 @@
      color: white;
 }
 
+main {
+     background-color: rgb(18, 14, 20);
+}
+
 header {
     background-image: url(../img/header-background.jpg);
     background-size: cover;
@@ -527,7 +531,95 @@ div .another-show-percentage {
     }
 }
 
-.gallery img {
-    width: 500px;
+.contact-us {
+    background-image: url(../img/contact-us-background.png);
+    background-position: center;
+    background-size: cover;
     height: 500px;
+}
+
+.contact-us-title {
+    font-family: Rajdhani, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 5%;
+    margin-left: 7%;
+}
+
+.contact-us-text {
+    font-family: Rajdhani, sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    margin-left: 7%;
+}
+
+.contact-us-email {
+    font-family: Rajdhani, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 7%;
+}
+
+.contact-us-button {
+    margin-left: 7%;
+}
+
+.testimonials-title {
+    font-family: Rajdhani, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.testimonials-subtitle {
+    font-family: Rajdhani, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.testimonials {
+    background-color: rgb(18, 14, 20);
+}
+
+.testemonials-carousel-bts {
+    background-color: black;
+}
+
+.how-to-order-title {
+     font-family: Rajdhani, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.how-to-order-colored-text {
+    color: royalblue;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    margin: 10%;
+    font-size: 20px;
+
+}
+
+.steps img {
+    width: 100px;
+    padding-bottom: 20px;
+}
+
+.steps-element {
+    padding: 10px;
+}
+
+@media (max-width: 600px) {
+    .steps {
+        display: flex;
+        flex-direction: column;
+    }
 }
