@@ -13,10 +13,6 @@
      color: white;
 }
 
-@media body (max-width: 700px)  {
-    max-width: 100%;
-}
-
 main {
      background-color: rgb(18, 14, 20);
 }
