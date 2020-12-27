@@ -92,7 +92,9 @@
                 <p class="about-us-subtitle"><span class="about-us-color-text">Досліджуйте Всесвіт</span><br>за допомогою технології VR!</p>
                 <p class="about-us-text">Ми пропонуємо вам з головою поринути у світ справжніх космічних пригод! Щоб побачити зорі та планети поблизу, не обов’язково проходити програму підготовки астронавтів! Завдяки нашому сервісу ви можете почувати себе справжнім космічним мандрівником, не виходячи з дому чи офісу.</p>
                 <p class="about-us-text">Дивіться приголомшливі фільми за допомогою технології VR. Пориньте в атмосферу простору і відчуйте себе справжнім космонавтом. Це абсолютно новий досвід, який ви точно захочете повторити. Ми приїдемо до вас з усім необхідним обладнанням і проведемо вас до зірок і планет!</p>
-                <button type="button" class="btn btn-primary about-us-button">Дізнатися Більше</button>  
+                <a href="#how-it-works" class="about-us-button">    
+                    <button type="button" class="btn btn-primary">Дізнатися Більше</button>  
+                </a>
             </section>
             <section class="vr-show" id="vr-show">
                 <div class=vr-show-info>    
@@ -231,7 +233,7 @@
                     <button type="button" class="btn btn-primary">Дати виходу</button>
                 </div>
             </section>
-            <section class="how-it-works">
+            <section class="how-it-works" id="how-it-works">
                 <h2 class="how-it-works-title">Як це працює</h2>
                 <hr>
                 <p class="how-it-works-subtitle">Віртуальна реальність ще ніколи не була такою реалістичною.</p>
@@ -334,44 +336,61 @@
                             </select>
                         </div>
                         
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" class="btn btn-primary">Замовити</button>
                     </form>
                 </div>
             </section>
         </main>
         <footer>
-            <!--
             <section class="contacts" id="contacts">
-                <h2>Адреса</h2>
-                <hr>
-                <p>Space Race</p>
-                <br>
-                <p>VR Шоу</p>
-                <br>
-                <p>Вул.Фізкультури, 3, Київ, Україна, 02000</p>
-                <br>
-                <p>+38 (050) 000 01 02</p>
-                <br>
-                <p>554htmlproject@gmail.com</p>
-            </section>
-            <nav>
-                <div class="company-logo">Space Race</div>
-                <div class="menu">
-                    <a href="#about-us">Про нас</a>
-                    <a href="#vr-show">VR Шоу</a>
-                    <a href="#prices">Ціни</a>
-                    <a href="#testimonials">Відгуки</a>
-                    <a href="#contacts">Контакти</a>
+                <div class="contacts-text">
+                    <h2>Адреса</h2>
+                    <p>Space Race</p>
+                    <br>
+                    <p>VR Шоу</p>
+                    <br>
+                    <p>Вул.Фізкультури, 3, Київ, Україна, 02000</p>
+                    <br>
+                    <p>+38 (050) 000 01 02</p>
+                    <br>
+                    <p>554htmlproject@gmail.com</p>
                 </div>
-                <div>
-                    <p>Ми в соціальних мережах:</p>
-                    <a href="https://www.facebook.com/" target="blank"><img src="img/facebook_logo.png"  alt="Фейсбук"></a>
-                    <a href="https://www.instagram.com/" target="blank"><img src="img/instagram_logo.png" alt="Інстаграм"></a>
-                    <a href="https://www.youtube.com/" target="blank"><img src="img/youtube_logo.png" alt="Ютуб"></a>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3646.507317308233!2d30.514112300812553!3d50.4317295110827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf1d5b6964ff%3A0x7bbba634b45bb6a8!2z0JrQuNGX0LLRgdGM0LrQuNC5INCf0LvQsNC90LXRgtCw0YDRltC5!5e0!3m2!1sru!2sua!4v1609087415107!5m2!1sru!2sua" width="75%" height="800" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </section>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Space Race</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#about-us">Про нас</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#vr-show">VR Шоу</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#prices">Ціни</a>
+                            </li>
+                             <li class="nav-item">
+                                <a class="nav-link" href="#testimonials">Відгуки</a>
+                            </li>
+                             <li class="nav-item">
+                                <a class="nav-link" href="#contacts">Контакти</a>
+                            </li>
+                        </ul>
+                        <span class="navbar-text">
+                            <div class="media-icons">
+                                        <a href="https://www.facebook.com/" target="blank"><img src="img/facebook-logo.svg"  alt="Фейсбук"></a>
+                                        <a href="https://www.instagram.com/" target="blank"><img src="img/instagram-logo.svg" alt="Інстаграм"></a>
+                                        <a href="https://www.youtube.com/" target="blank"><img src="img/youtube-logo.svg" alt="Ютуб"></a>
+                            </div>
+                        </span>
+                    </div>
                 </div>
             </nav>
-            <hr>
-        -->
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
         <script src="js/index.js"></script>

@@ -8,8 +8,13 @@
     max-width: 1280px;
     margin: auto;
 }
+
  body {
      color: white;
+}
+
+@media body (max-width: 700px)  {
+    max-width: 100%;
 }
 
 main {
@@ -89,19 +94,12 @@ header {
     justify-content: center;
 }
 
-@media {
-    .vr-show-numbers {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, 400px);
-    }
-}
-
 div .numbers-of-show {
     background-image: url(../img/galaxy-show-numbers.jpg);
     background-size: cover;
     background-position: center;
-    width: 23em;
-    height: 27em;
+    width: 22em;
+    height: 26em;
     margin: 20px;
     display: flex;
     align-items: flex-end;
@@ -128,8 +126,8 @@ div .shows-booked {
     background-image: url(../img/shows-booked-spaceman.jpg);
     background-size: cover;
     background-position: center;
-    width: 23em;
-    height: 27em;
+    width: 22em;
+    height: 26em;
     margin: 20px;
     display: flex;
     align-items: flex-end;
@@ -139,11 +137,19 @@ div .another-show-percentage {
     background-image: url(../img/another-show-percentage-sky.jpg);
     background-size: cover;
     background-position: center;
-    width: 23em;
+    width: 22em;
     height: 27em;
     margin: 20px;
     display: flex;
     align-items: flex-end;
+}
+
+@media {
+    .vr-show-numbers {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 400px);
+        
+    }
 }
 
 .about-us {
@@ -207,21 +213,18 @@ div .another-show-percentage {
     background-position: center;
     background-size: cover;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50% 40%;
 }
 
-@media (max-width: 70em) {
+@media (max-width: 900px) {
     .vr-show {
-        grid-template-columns: 1fr;
+        grid-template-columns: 100%;
+        place-items: center;
     }
     .vr-show-carousel-bts {
-        margin: auto;
-        width: auto;
-    }
-    .vr-show-info {
-        width: auto;
-    }
+     max-width: 70%
 
+    }
 }
 
 .vr-show-info {
@@ -588,7 +591,7 @@ div .another-show-percentage {
 }
 
 .how-to-order-title {
-     font-family: Rajdhani, sans-serif;
+    font-family: Rajdhani, sans-serif;
     font-size: 50px;
     font-weight: 700;
     text-align: center;
@@ -631,8 +634,6 @@ div .another-show-percentage {
     height: 600px;
     display: flex;
     align-items: center;
-
-
 }
 
 .order-form {
@@ -646,4 +647,24 @@ div .another-show-percentage {
     width: 400px;
     height: 400px;
     border-radius: 3%;
+}
+
+.contacts {
+ display: grid;
+ grid-template-columns: 30% 70%;
+}
+.contacts-text {
+    background-image: url(../img/contacts-back.jpg);
+    background-position: center;
+    color: white;
+    font-family: Rajdhani, sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 20%;
+    width: auto;
+}
+
+iframe {
+    width: 100%;
 }
