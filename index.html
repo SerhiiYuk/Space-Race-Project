@@ -310,25 +310,37 @@
                     </div>
                 </div>
             </section>
-            <!--
             <section class="order">
-                <h2>Вперед до зірок</h2>
-                <hr>
-                <p>Заплануйте свою подорож до зірок.</p>
-                <form>
-                    <input type="text" name="user-telephone-number" placeholder="Номер Телефону" required>
-                    <br>
-                    <input type="text" name="user-email" placeholder="Email">
-                    <br>
-                    <input type="text" name="date" placeholder="Дата" required>
-                    <br>
-                    <input type="text" name="Show-name" placeholder="Шоу" required>
-                    <br>
-                    <input type="submit" value="Замовити">
-                </form>
+                <div class="order-form">
+                    <h2>Вперед до зірок</h2>
+                    <p>Заплануйте свою подорож до зірок.</p>
+                   <form>
+                        <div class="mb-3">
+                            <label for="exampleInputPhoneNumber1" class="form-label">Номер Телефону</label>
+                            <input type="phonenumber" class="form-control" id="exampleInputPhoneNumber1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputMovie1" class="form-label">Виберіть Фільм</label>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected> </option>
+                                <option value="1">Космічна Станція</option>
+                                <option value="2">Вічний супутник</option>
+                                <option value="3">Найближче до Сонця</option>
+                                 <option value="3">Тренування NASA</option>
+                            </select>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
             </section>
         </main>
         <footer>
+            <!--
             <section class="contacts" id="contacts">
                 <h2>Адреса</h2>
                 <hr>
