@@ -664,3 +664,7 @@ div .another-show-percentage {
 iframe {
     width: 100%;
 }
+
+.video-player video {
+    width: 100%;
+}
