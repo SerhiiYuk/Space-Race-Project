@@ -77,12 +77,6 @@ header {
     display: flex;
 }
 
-.our-videos-button p {
-    text-decoration: none;
-    color: white;
-    text-align: center;
-}
-
 .show-numbers-title {
     font-weight: 700;
     font-family: Rajdhani, sans-serif;
