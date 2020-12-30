@@ -59,6 +59,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .header-play-button {
