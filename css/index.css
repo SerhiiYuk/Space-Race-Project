@@ -667,3 +667,12 @@ iframe {
     max-width: 80%;
     margin: auto;
 }
+
+@media (max-width: 700px) {
+    .contacts {
+        grid-template-columns: 100%;
+    }
+    .contacts-text {
+       padding-bottom: 40%;
+    }
+}
